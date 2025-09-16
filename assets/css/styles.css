@@ -34,11 +34,13 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: #2C3E50;
-      border-radius: 50px;
       width: 200px;
-      height: 60px;
+      height: 70px;
       overflow: hidden;
+    }
+    .logo-img {
+      height: 70px;
+      object-fit: contain;
     }
 
     .logo-text {
@@ -386,6 +388,7 @@
       margin: 0 auto;
       text-align: center;
       padding: 0 20px;
+      justify-content: space-around;
     }
 
     .planes-title {
