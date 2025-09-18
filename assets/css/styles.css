@@ -5,10 +5,10 @@
     }
 
     body {
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Mada', sans-serif;
       line-height: 1.6;
-      background-color: #F8F9FA;
-      color: #2C3E50;
+      background-color: #F4F6F8;
+      color: #1D2A3A;
     }
 
     .container {
@@ -21,7 +21,7 @@
     }
 
     .header {
-      background-color: #27AE60;
+      background-color: #2AB27B;
       padding: 15px 0;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
       position: fixed;
@@ -44,9 +44,10 @@
     }
 
     .logo-text {
-      color: #F8F9FA;
+      color: #FFFFFF;
       font-size: 24px;
       font-weight: 700;
+      font-family: 'Koulen', sans-serif;
     }
 
     .nav-container {
@@ -62,45 +63,46 @@
 
     .nav-link {
       text-decoration: none;
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Mada', sans-serif;
       font-weight: 500;
       font-size: 16px;
       line-height: 22px;
       padding: 10px 15px;
       display: flex;
       align-items: center;
-      background-color: #2C3E50;
-      color: #F8F9FA;
+      background-color: #1D2A3A;
+      color: #FFFFFF;
       border: 2px solid transparent;
       border-radius: 50px;
       transition: all 0.3s ease;
     }
 
     .nav-link:hover {
-      background-color: #F8F9FA;
-      color: #2C3E50;
+      background-color: #FFFFFF;
+      color: #1D2A3A;
       border: 2px solid transparent;
     }
 
     .nav-link:active {
-      background-color: #F8F9FA;
-      color: #2C3E50;
-      border: 2px solid #2C3E50;
+      background-color: #FFFFFF;
+      color: #1D2A3A;
+      border: 2px solid #1D2A3A;
     }
 
     .language-button {
       text-decoration: none;
       padding: 12px 20px;
       border-radius: 30px;
-      background-color: #2C3E50;
-      color: #F8F9FA;
+      background-color: #1D2A3A;
+      color: #FFFFFF;
       border: 2px solid transparent;
       transition: all 0.3s ease;
+      font-family: 'Mada', sans-serif;
     }
 
     .language-button:hover {
-      background-color: #F8F9FA;
-      color: #2C3E50;
+      background-color: #FFFFFF;
+      color: #1D2A3A;
     }
 
     .login-icon {
@@ -109,7 +111,7 @@
 
     .hero {
       position: relative;
-      background: linear-gradient(135deg, #27AE60 0%, #2ECC71 50%, #58D68D 100%);
+      background: linear-gradient(135deg, #2AB27B 0%, #9FE6C3 50%, #3D9DF6 100%);
       height: 100vh;
       display: flex;
       align-items: center;
@@ -140,8 +142,8 @@
     }
 
     .hero-title {
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 700;
+      font-family: 'Koulen', sans-serif;
+      font-weight: 400;
       font-size: 80px;
       line-height: 90px;
       color: #FFFFFF;
@@ -157,36 +159,38 @@
     }
 
     .hero-subtitle {
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Mada', sans-serif;
       font-size: 36px;
       line-height: 44px;
       color: #FFFFFF;
       margin-bottom: 30px;
       text-align: center;
+      font-weight: 500;
     }
 
     .hero-button {
       display: inline-block;
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Mada', sans-serif;
       font-weight: 500;
       font-size: 18px;
       line-height: 30px;
       padding: 15px 30px;
       text-decoration: none;
       border-radius: 25px;
-      background-color: #2C3E50;
-      color: #F8F9FA;
+      background-color: #1D2A3A;
+      color: #FFFFFF;
       transition: all 0.3s ease;
     }
 
     .hero-button:hover {
-      background-color: #F8F9FA;
-      color: #2C3E50;
-      border: 2px solid #2C3E50;
+      background-color: #FFFFFF;
+      color: #1D2A3A;
+      border: 2px solid #1D2A3A;
     }
+    
     .beneficios {
       padding: 80px 0;
-      background-color: #F8F9FA;
+      background-color: #F4F6F8;
       padding-bottom: 100px;
     }
 
@@ -196,15 +200,16 @@
     }
 
     .beneficios__title {
+      font-family: 'Koulen', sans-serif;
       font-size: 3.5rem;
-      font-weight: 600;
-      color: #2C3E50;
+      font-weight: 400;
+      color: #1D2A3A;
       margin-bottom: 100px;
     }
 
     .underline {
       text-decoration: underline;
-      text-decoration-color: #27AE60;
+      text-decoration-color: #2AB27B;
       text-decoration-thickness: 5px;
     }
 
@@ -222,33 +227,35 @@
     }
 
     .beneficio-card__heading {
+      font-family: 'Koulen', sans-serif;
       font-size: 2rem;
-      font-weight: 600;
+      font-weight: 400;
       margin-bottom: 16px;
-      color: #2C3E50;
+      color: #1D2A3A;
     }
 
     .beneficio-card__text {
+      font-family: 'Mada', sans-serif;
       font-size: 1.5rem;
       line-height: 1.3;
       max-width: 400px;
       margin: 0 auto 50px;
-      color: #34495E;
+      color: #1D2A3A;
     }
 
     .beneficio-card__cta {
+      font-family: 'Koulen', sans-serif;
       font-size: 4rem;
-      font-style: italic;
       margin-bottom: 50px;
       line-height: 1.1;
-      color: #2C3E50;
+      color: #1D2A3A;
     }
 
     .beneficio-card__cta .highlight {
       display: inline-block;
       padding: 0.05em 0.2em;
       width: max-content;
-      background-color: #27AE60;
+      background-color: #2AB27B;
       color: #FFFFFF;
       border-radius: 12px;
       box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.15);
@@ -259,13 +266,12 @@
     .cta-rest {
       display: block;
       font-size: 4rem;
-      font-style: italic;
       line-height: 1.1;
     }
 
     .btn-beneficios {
       display: inline-block;
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Mada', sans-serif;
       font-weight: 500;
       font-size: 1.2rem;
       line-height: 1.5;
@@ -273,20 +279,21 @@
       border-radius: 25px;
       text-decoration: none;
       transition: all 0.3s ease;
-      background-color: #2C3E50;
-      color: #F8F9FA;
+      background-color: #1D2A3A;
+      color: #FFFFFF;
       border: 2px solid transparent;
     }
 
     .btn-beneficios:hover {
-      background-color: #F8F9FA;
-      color: #2C3E50;
-      border: 2px solid #2C3E50;
+      background-color: #FFFFFF;
+      color: #1D2A3A;
+      border: 2px solid #1D2A3A;
     }
+    
     .data-section {
-      background-color: #27AE60;
+      background-color: #2AB27B;
       padding: 80px 0;
-      color: #2C3E50;
+      color: #1D2A3A;
     }
 
     .data-section .container {
@@ -294,22 +301,22 @@
     }
 
     .data-title {
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Koulen', sans-serif;
       font-weight: 400;
       font-size: 64px;
       line-height: 1.2;
       margin-bottom: 20px;
-      color: #ffffff;
+      color: #FFFFFF;
       text-align: center;
     }
 
     .data-subtitle {
-      font-family: 'Arial', sans-serif;
+      font-family: 'Mada', sans-serif;
       font-weight: 400;
       font-size: 32px;
       line-height: 1.4;
       margin-bottom: 80px;
-      color: #2C3E50;
+      color: #1D2A3A;
       text-align: center;
     }
 
@@ -336,19 +343,19 @@
     }
 
     .feature-title {
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 700;
+      font-family: 'Koulen', sans-serif;
+      font-weight: 400;
       font-size: 49px;
       margin-bottom: 20px;
-      color: #2C3E50;
+      color: #1D2A3A;
     }
 
     .feature-description {
-      font-family: 'Arial', sans-serif;
+      font-family: 'Mada', sans-serif;
       font-weight: 400;
       font-size: 32px;
       line-height: 1.6;
-      color: #2C3E50;
+      color: #1D2A3A;
     }
 
     .feature-image {
@@ -359,27 +366,37 @@
     }
 
     .device-mockup {
-      background: #ffffff;
+      background: #FFFFFF;
       border-radius: 24px;
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
       padding: 20px;
       width: 100%;
       max-width: 480px;
       position: relative;
-      border: 2px solid #000000;
+      border: 2px solid #1D2A3A;
       display: flex;
       align-items: center;
       justify-content: center;
       min-height: 300px;
+      overflow: hidden;
+    }
+
+    .dashboard-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 12px;
     }
 
     .mockup-content {
       text-align: center;
-      color: #7F8C8D;
+      color: #1D2A3A;
       font-size: 16px;
+      font-family: 'Mada', sans-serif;
     }
+    
     .planes-section {
-      background-color: #F8F9FA;
+      background-color: #F4F6F8;
       padding: 80px 0;
     }
 
@@ -392,10 +409,10 @@
     }
 
     .planes-title {
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 700;
+      font-family: 'Koulen', sans-serif;
+      font-weight: 400;
       font-size: 36px;
-      color: #2C3E50;
+      color: #1D2A3A;
       margin-bottom: 40px;
     }
 
@@ -407,7 +424,7 @@
     }
 
     .plan-card {
-      background-color: #ffffff;
+      background-color: #FFFFFF;
       border-radius: 10px;
       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
       padding: 30px 20px;
@@ -421,22 +438,23 @@
     }
 
     .plan-card.featured {
-      border: 3px solid #27AE60;
+      border: 3px solid #2AB27B;
       transform: scale(1.05);
     }
 
     .plan-title {
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 700;
+      font-family: 'Koulen', sans-serif;
+      font-weight: 400;
       font-size: 24px;
-      color: #2C3E50;
+      color: #1D2A3A;
       margin-bottom: 10px;
     }
 
     .plan-price {
+      font-family: 'Koulen', sans-serif;
       font-size: 36px;
-      font-weight: 700;
-      color: #27AE60;
+      font-weight: 400;
+      color: #2AB27B;
       margin-bottom: 20px;
     }
 
@@ -448,9 +466,10 @@
     }
 
     .plan-features li {
+      font-family: 'Mada', sans-serif;
       font-size: 16px;
       margin-bottom: 10px;
-      color: #34495E;
+      color: #1D2A3A;
       padding-left: 20px;
       position: relative;
     }
@@ -459,12 +478,13 @@
       content: "✓";
       position: absolute;
       left: 0;
-      color: #27AE60;
+      color: #2AB27B;
       font-weight: bold;
     }
 
     .plan-button {
-      background-color: #27AE60;
+      font-family: 'Mada', sans-serif;
+      background-color: #2AB27B;
       color: white;
       border: none;
       border-radius: 25px;
@@ -477,26 +497,28 @@
     }
 
     .plan-button:hover {
-      background-color: #2ECC71;
+      background-color: #9FE6C3;
     }
 
     .plan-card.featured .plan-button {
-      background-color: #2C3E50;
+      background-color: #1D2A3A;
     }
 
     .plan-card.featured .plan-button:hover {
-      background-color: #34495E;
+      background-color: #3D9DF6;
     }
 
     .testimonios {
-      background-color: #27AE60;
+      background-color: #2AB27B;
       padding: 80px 20px;
       text-align: center;
       color: #FFFFFF;
     }
 
     .testimonios h2 {
+      font-family: 'Koulen', sans-serif;
       font-size: 36px;
+      font-weight: 400;
       margin-bottom: 50px;
       color: #FFFFFF;
     }
@@ -515,7 +537,7 @@
     .testimonio {
       max-width: 350px;
       width: 100%;
-      background: #2ECC71;
+      background: #9FE6C3;
       padding: 30px;
       border-radius: 15px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -526,29 +548,33 @@
       height: 80px;
       border-radius: 50%;
       margin: 0 auto 20px;
-      background-color: #34495E;
+      background-color: #1D2A3A;
       display: flex;
       align-items: center;
       justify-content: center;
       color: #FFFFFF;
+      font-family: 'Koulen', sans-serif;
       font-size: 24px;
-      font-weight: bold;
+      font-weight: 400;
     }
 
     .testimonio h3 {
-      color: #FFFFFF;
+      font-family: 'Koulen', sans-serif;
+      color: #1D2A3A;
       margin: 10px 0 15px;
       font-size: 18px;
+      font-weight: 400;
     }
 
     .testimonio p {
-      color: #FFFFFF;
+      font-family: 'Mada', sans-serif;
+      color: #1D2A3A;
       font-size: 16px;
       line-height: 1.5;
     }
 
     .faq-contact-section {
-      background-color: #ECF0F1;
+      background-color: #F4F6F8;
       min-height: 100vh;
       display: flex;
       justify-content: center;
@@ -557,16 +583,15 @@
     }
 
     .faq-contact-wrapper {
-      background-color: #27AE60;
+      background-color: #2AB27B;
       width: 100%;
       max-width: 1103px;
       border-radius: 20px;
       display: flex;
       gap: 2rem;
       padding: 3rem;
-      color: #2C3E50;
+      color: #1D2A3A;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      font-family: 'Arial', sans-serif;
     }
 
     .faq {
@@ -577,11 +602,11 @@
     }
 
     .faq-title, .contact-title {
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Koulen', sans-serif;
       font-size: 36px;
-      font-weight: 500;
+      font-weight: 400;
       margin-bottom: 20px;
-      color: #2C3E50;
+      color: #1D2A3A;
     }
 
     .faq-item {
@@ -589,23 +614,24 @@
     }
 
     .question {
-      font-family: 'Arial', sans-serif;
+      font-family: 'Koulen', sans-serif;
       font-size: 24px;
-      font-weight: bold;
+      font-weight: 400;
       margin-bottom: 5px;
-      color: #2C3E50;
+      color: #1D2A3A;
     }
 
     .answer {
       margin: 0.3rem 0 1rem 0;
-      font-family: 'Arial', sans-serif;
+      font-family: 'Mada', sans-serif;
       font-size: 16px;
       margin-bottom: 15px;
-      color: #2C3E50;
+      color: #1D2A3A;
     }
 
     .ver-mas {
-      color: #2C3E50;
+      font-family: 'Mada', sans-serif;
+      color: #1D2A3A;
       text-decoration: underline;
       display: inline-block;
       margin-top: 0.3rem;
@@ -618,16 +644,24 @@
     }
 
     .contact form {
-      background-color: #fff;
+      background-color: #FFFFFF;
       padding: 1rem;
       border-radius: 15px;
       display: flex;
       flex-direction: column;
       gap: 0.8rem;
-      color: #000;
+      color: #1D2A3A;
+    }
+
+    .contact label {
+      font-family: 'Mada', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      color: #1D2A3A;
     }
 
     .contact input, .contact textarea {
+      font-family: 'Mada', sans-serif;
       padding: 0.6rem;
       font-size: 0.9rem;
       border: 1px solid #ccc;
@@ -635,22 +669,23 @@
     }
 
     .contact button {
-      background-color: #2C3E50;
+      font-family: 'Mada', sans-serif;
+      background-color: #1D2A3A;
       color: white;
       padding: 1rem;
       border: none;
       border-radius: 8px;
       cursor: pointer;
-      font-weight: bold;
+      font-weight: 500;
     }
 
     .contact button:hover {
-      background-color: #34495E;
+      background-color: #3D9DF6;
     }
 
     .footer {
-      background-color: #2C3E50;
-      color: #F8F9FA;
+      background-color: #1D2A3A;
+      color: #FFFFFF;
       padding: 40px 0;
     }
 
@@ -666,7 +701,9 @@
     }
 
     .footer-section h3 {
+      font-family: 'Koulen', sans-serif;
       font-size: 1.5rem;
+      font-weight: 400;
       margin-bottom: 20px;
     }
 
@@ -675,7 +712,8 @@
     }
 
     .footer-section ul li a {
-      color: #F8F9FA;
+      font-family: 'Mada', sans-serif;
+      color: #FFFFFF;
       text-decoration: none;
       font-size: 1rem;
       margin-bottom: 10px;
@@ -683,7 +721,11 @@
     }
 
     .footer-section ul li a:hover {
-      color: #27AE60;
+      color: #2AB27B;
+    }
+
+    .footer p {
+      font-family: 'Mada', sans-serif;
     }
 
     @media (max-width: 1200px) {
