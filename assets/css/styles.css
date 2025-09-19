@@ -248,16 +248,17 @@ body {
 }
 
 .beneficios__grid {
-  display: flex;
-  gap: 40px;
-  margin-top: 50px;
-  flex-wrap: wrap;
-  justify-content: center;
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .beneficio-card {
-  flex: 1;
-  min-width: 280px;
+    flex: 1;
+    min-width: 280px;
+    max-width: 350px;
 }
 
 .beneficio-card__heading {
